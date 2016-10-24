@@ -52,8 +52,18 @@
 	margin-top: 10px;
 }
 
+#actions {
+	display: inline-block;
+}
+
 #box {
 	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	margin-left: 90px;
+	margin-top: 75px;
+	border-left: 1px solid black;
+	padding-left: 10px;
 }
 
 #footer h3 {

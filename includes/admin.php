@@ -56,10 +56,7 @@ if (isset($_POST['delete'])) {
 	$results->free();
 }
 
-
-echo 'admin: ' . Session::get('username') . '<br />';
 Database::getInstance()->close();
-echo "<a href=\"../public/private_page.php\">return</a>";
 
 ?>
 <!DOCTYPE html>
@@ -71,7 +68,11 @@ echo "<a href=\"../public/private_page.php\">return</a>";
 </head>
 <body>
 
-<div>
+<div id="actions">
+	<?php
+		echo 'admin: ' . Session::get('username') . '<br />';
+		echo "<a href=\"../public/private_page.php\">return</a>";
+	?>
 	<form action="" method="POST">
 		<p>Retrieve data for:<br />
 		   <input type="text" name="username" placeholder="username of user" autocomplete="off" />
