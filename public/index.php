@@ -30,7 +30,7 @@ require_once '../includes/layouts/header.php';
 		</div>
 		<div class="col-xs-7">
 			<div class="jumbotron">
-				<p><img src="images/1.jpg" alt="random pictures of nature" title="pictures of beautiful nature" height="250" width="250" id="nature" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget elit ullamcorper, ultricies lectus vitae, egestas magna. Suspendisse et rutrum nisl. Aenean eu nibh id dolor tempor luctus a sed neque. Curabitur aliquet varius nisi fringilla consectetur. Phasellus vitae felis sed leo tempus ullamcorper nec ut diam. Duis mattis lectus a eros lobortis, at feugiat orci volutpat. Ut dictum ligula imperdiet nunc finibus placerat. Nulla in massa mi. Vivamus mollis accumsan orci, vel imperdiet nibh mattis eget. Nunc tincidunt dapibus turpis, non aliquet massa placerat at. Quisque at rutrum arcu. Praesent imperdiet viverra enim. Aliquam mollis vel sem nec hendrerit. In ante nibh, semper gravida pulvinar sit amet, auctor vel erat. Cras blandit enim erat, eget porta lorem finibus ut. Nunc vulputate eget ante ut pretium.</p>
+				<p><img src="images/1.jpg" alt="random pictures of nature" title="pictures of beautiful nature" height="250" width="250" id="nature" class="img-rounded" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget elit ullamcorper, ultricies lectus vitae, egestas magna. Suspendisse et rutrum nisl. Aenean eu nibh id dolor tempor luctus a sed neque. Curabitur aliquet varius nisi fringilla consectetur. Phasellus vitae felis sed leo tempus ullamcorper nec ut diam. Duis mattis lectus a eros lobortis, at feugiat orci volutpat. Ut dictum ligula imperdiet nunc finibus placerat. Nulla in massa mi. Vivamus mollis accumsan orci, vel imperdiet nibh mattis eget. Nunc tincidunt dapibus turpis, non aliquet massa placerat at. Quisque at rutrum arcu. Praesent imperdiet viverra enim. Aliquam mollis vel sem nec hendrerit. In ante nibh, semper gravida pulvinar sit amet, auctor vel erat. Cras blandit enim erat, eget porta lorem finibus ut. Nunc vulputate eget ante ut pretium.</p>
 				<p>Etiam quis consequat nisi, in ullamcorper arcu. Duis nec posuere nisi. Nullam accumsan, ex ut cursus aliquam, sapien felis vulputate tellus, eu imperdiet sem diam eu felis. Integer rhoncus consectetur dignissim. Maecenas diam nisi, imperdiet quis ultrices sollicitudin, accumsan sit amet metus. Nam feugiat, tortor vitae fermentum pulvinar, diam mi placerat erat, quis sollicitudin nisl leo fermentum mauris. Nam ante massa, imperdiet ac scelerisque eu, condimentum in felis. Suspendisse vitae ligula velit. Donec non mollis nulla. Nam porta lorem quis nunc porta pharetra. Etiam lacinia mi sit amet luctus sodales. Aliquam sit amet nisl in felis maximus dapibus ut ac ipsum. Vestibulum aliquet congue egestas.</p>
 			</div>
 		</div>
@@ -124,6 +124,10 @@ require_once '../includes/layouts/header.php';
 		</div>
 	</div>	<!-- End of main div -->
 
+</div>
+
+<div id="footer">
+	<h3>Footer</h3>
 </div>
 
 <script src="javascript/script.js"></script>
