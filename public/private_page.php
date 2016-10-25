@@ -32,5 +32,10 @@ require_once '../includes/layouts/header.php';
 	
 </div>
 
+<div id="time">
+	<div id="clock"></div>
+	<div id="date"></div>
+</div>
+
 </body>
 </html>

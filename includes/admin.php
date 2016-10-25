@@ -117,7 +117,7 @@ Database::getInstance()->close();
 				echo "<td>admin:</td><td>" . ($admin == 0 ? 'no' : 'yes') . "</td>";
 			echo "</tr>";
 			echo "<tr>";
-				echo "<td>usernaem:</td><td>" . htmlentities($username) . "</td>";
+				echo "<td>username:</td><td>" . htmlentities($username) . "</td>";
 			echo "</tr>";
 		echo "</table>";
 	}

@@ -13,6 +13,12 @@ function createXMLHttpRequestObject() {
 var unique_user = document.signForm.username;
 unique_user.addEventListener('blur', checkUsername, false);
 
+/*
+ * Checking if username is unique 
+ * and if password is strong enough
+ * so that user can be notified 
+ * whitout page reload
+ */
 function checkUsername() {
 	xhr.open("POST", "../includes/ajaxValidation/ajax_validate.php", true);
 	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -49,7 +55,11 @@ function checkPass() {
 	}
 }
 
-/*************************************************************/
+
+/*
+ * This code controls image
+ * changing in index.php page
+ */
 
 var natureImages = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
 var nature = document.getElementById("nature");
